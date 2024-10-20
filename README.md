@@ -18,19 +18,35 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+# Task Management App
 
-To learn more about Next.js, take a look at the following resources:
+This is a simple task management application built with Next.js. The app allows users to create, edit, delete, and manage tasks while supporting sorting by priority and search functionality.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Add Tasks**: Users can add new tasks with a title, description, and priority level.
+- **Edit Tasks**: Existing tasks can be modified.
+- **Delete Tasks**: Users can remove tasks from the list.
+- **Toggle Completion**: Users can mark tasks as completed.
+- **Search Functionality**: Search tasks by title or description.
+- **Sorting**: Tasks can be sorted based on their priority (high, medium, low).
 
-## Deploy on Vercel
+## Setup Instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run the application locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Mridul9A/task-management-app.git
+   cd task-management-app
+   ```
+2. **Install Dependencies: Make sure you have Node.js installed. Then run:
+
+```bash
+   npm install
+```
+3. **Run the Development Server:
+```bash
+   npm run dev
+```
